@@ -1,0 +1,53 @@
+body{
+    background-color: yellow;
+    align-self: center;
+    margin-left: 600px;
+}
+a{
+    font-size: large;
+    text-align: center;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-top: 10px;
+
+}
+
+.card1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 3s;
+    margin-top: 10px;
+}
+.card1:hover{
+    transition:linear ;
+    width: 400px;
+    transition: 3s;
+}
+.card2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 3s;
+    margin-top: 10px;
+}
+.card2:hover{
+    width: 250px;
+    height: 250px;
+    transition: width 2s,height 4s;
+}
+.card3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 3s;
+    margin-top: 10px;
+}
+.card3:hover{
+    transition:linear ;
+    width: 400px;
+    transition: 3s;
+}
